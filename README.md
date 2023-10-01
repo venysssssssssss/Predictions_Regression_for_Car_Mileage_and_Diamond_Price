@@ -172,4 +172,13 @@ plt.axvline(x=0, color='gray', linestyle='--', linewidth=0.5)
 
 # Adiciona uma linha vertical para mostrar a média de preços
 mean_price = df2["price"].mean()
-plt.axvline(x=
+plt.axvline(x=mean_price, color='red', linestyle='--', linewidth=2, label=f'Média = ${mean_price:.2f}')
+
+# Adiciona uma legenda para identificar a média
+plt.legend()
+
+# Personaliza o gráfico com mais detalhes, como cores, transparência, etc.
+plt.grid(True, linestyle='--', alpha=0.5)
+
+# Exibe o gráfico
+plt.show()
