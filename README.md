@@ -1,5 +1,5 @@
 # Predictions_Regression_for_Car_Mileage_and_Diamond_Price
-Claro, aqui está o código com uma documentação detalhada em formato GitHub:
+
 
 ```python
 # Importação de Bibliotecas
